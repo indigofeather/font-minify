@@ -4,7 +4,13 @@
   "main": "flyfile.js",
   "author": "",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint flyfile.js"
+  },
   "devDependencies": {
+    "eslint": "^1.5.0"
+  },
+  "dependencies": {
     "fontmin": "^0.9.0-alpha-3"
   }
 }
