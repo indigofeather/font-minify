@@ -1,6 +1,6 @@
 import config from './config'
 import Fontmin from 'fontmin'
-import fs from 'fs';
+import fs from 'fs'
 
 function* entries(obj) {
   for (let key of Object.keys(obj)) {
